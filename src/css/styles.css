@@ -1,3 +1,8 @@
+*::before , *::after {
+	box-sizing: border-box;
+} 
+
+
 /**
   |============================
   | include css partials with
