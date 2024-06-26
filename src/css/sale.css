@@ -1,18 +1,5 @@
 /* ===================================SALE============================================== */
-.container {
-    /* width: 1120px; */
-    width: 335px;
-    /* padding-left: 65px;
-    padding-right: 65px; */
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 0 auto;
-}
 
-.sale {
-    /* padding-bottom: 100px; */
-    padding-bottom: 60px;
-}
 
 .sale-title {
     /* font-family: "Gilroy", sans-serif; */
@@ -200,14 +187,7 @@
                                         /* MEDIA */
 
 @media screen and (min-width: 768px) {
-    .container {
-        width: 640px;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
-    .sale {
-        padding-bottom: 80px;
-    }
+    
     .sale-title {
         font-size: 48px;
         line-height: 0.92;
@@ -276,14 +256,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
-        width: 1120px;
-        padding-left: 65px;
-        padding-right: 65px;
-    }
-    .sale {
-        padding-bottom: 100px;
-    }
+    
     .sale-title {
         font-size: 48px;
         line-height: 0.92;
