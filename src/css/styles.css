@@ -4,32 +4,84 @@
   | default @import url()
   |============================
 */
-@import url('./fonts.css');
-@import url('./reset.css');
-@import url('./header.css');
-@import url('./hero.css');
-@import url('./about.css');
-@import url('./catalog.css');
-@import url('./advertisement.css');
-@import url('./sale.css');
-@import url('./reviews.css');
-@import url('./contact.css');
-@import url('./footer.css');
+@import url("./fonts.css");
+@import url("./reset.css");
+@import url("./header.css");
+@import url("./hero.css");
+@import url("./about.css");
+@import url("./catalog.css");
+@import url("./advertisement.css");
+@import url("./sale.css");
+@import url("./reviews.css");
+@import url("./contact.css");
+@import url("./footer.css");
 
+/* ----------------------------MOBILE MEDIA---------------------------- */
 
+@media screen and (min-width: 375px) {
+	.container {
+		max-width: 975px;
+		margin-right: auto;
+		margin-left: auto;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.section {
+		padding-bottom: 60px;
+	}
+}
+
+/* ----------------------------MOBILE MEDIA---------------------------- */
+
+/* ----------------------------TABLET MEDIA----------------------------*/
+
+@media screen and (min-width: 768px) {
+	.container {
+		max-width: 768px;
+		margin-right: auto;
+		margin-left: auto;
+		padding-left: 32px;
+		padding-right: 32px;
+	}
+
+	.section {
+		padding-bottom: 80px;
+	}
+}
+
+/*----------------------------TANLET MEDIA_---------------------------- */
+
+/* ----------------------------_DESCTOP MEDIA---------------------------- */
+
+@media screen and (min-width: 1280px) {
+	.container {
+		max-width: 1280px;
+		margin-right: auto;
+		margin-left: auto;
+		padding-left: 65px;
+		padding-right: 65px;
+	}
+
+	.section {
+		padding-bottom: 100px;
+	}
+}
+
+/* ----------------------------DESCTOP MEDIAV---------------------------- */
 
 :root {
-  font-family: Gilroy, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+	font-family: Gilroy, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
 
-  color: #0C0C0C;
-  background-color: rgba(255, 255, 255, 0.87);
+	color: #0c0c0c;
+	background-color: rgba(255, 255, 255, 0.87);
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
 }
