@@ -14,42 +14,45 @@
 	}
 
     .web-footer {
-        max-width: 335px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-bottom: 20px;
+       padding-bottom: 20px;
+       max-width: 335px;
+       margin-right: auto;
+       margin-left: auto;
+       
     }
 
     .main-footer-div {
         border-radius: 30px;
         padding: 40px 28px 28px 28px;
-        width: 295px;
-        height: 513px;
+        max-width: 335px;
+        height: 581px;
         background-color: #0c0c0c;
     }
 
     .footer-box-one {
         margin-bottom: 20px;
-    }
+    } 
 
     .footer-logo {
-        display: flex;
         font-weight: 500;
         font-size: 16px;
         letter-spacing: -0.02em;
         color: #fbfbfb;
         margin-bottom: 20px;
+        display: flex;
     }
 
     .footer-soc-links {
         display: flex;
-        gap: 10px; 
+        gap: 10px;
     }
 
     .soc-link-footer {
-        border: 1px solid rgba(251, 251, 251, 0.2);
+        border: 1px solid rgba(251, 251, 251, 0.1);
         border-radius: 10px;
         padding: 8px;
+        width: 34px;
+        height: 34px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -65,13 +68,13 @@
         line-height: 1.33333;
         text-transform: uppercase;
         text-align: center;
-        color: #fbfbfb;       
+        color: #fbfbfb;
         border: 1px solid rgba(251, 251, 251, 0.2);
-        border-radius: 16px; 
+        border-radius: 16px;
+        width: 152px;
+        height: 44px;
         padding: 14px 20px;
         display: flex;
-        width: 110px;
-        height: 14px;
     }
 
     .footer-box-two {
@@ -79,7 +82,7 @@
     }
 
     .footer-box-three {
-        margin-bottom: 86px;
+        margin-bottom: 92px;
     }
 
     .footer-info-txt {
@@ -92,19 +95,20 @@
     }
 
     .footer-block-two {
-        display: flex;
         margin-bottom: 24px;
+        display: flex;
     }
 
     .footer-box-four {
-        margin-right: auto;
         max-width: 147px;
+        max-height: 64px;
+        margin-right: auto;
     }
 
     .footer-ul-four {
         display: flex;
-        flex-wrap: wrap;
         gap: 0 16px;
+        flex-wrap: wrap;
     }
 
     .f-box-four-item {
@@ -112,17 +116,13 @@
         font-size: 12px;
         line-height: 1.33333;
         text-align: center;
-        color: #fbfbfb;
-        padding: 0; 
-    }
-
-    .footer-li-four {
-        padding: 0;
+        color: #fbfbfb;        
     }
 
     .footer-box-five {
-        width: 103px;
+        width: 93px;
         height: 48px;
+        display: flex;
     }
 
     .f-box-four-address {
@@ -130,19 +130,13 @@
         font-size: 12px;
         line-height: 1.33333;
         color: #fbfbfb;
-        display: flex;       
     }
 
     .footer-line {
-        background-color: rgba(251, 251, 251, 0.1);
-        width: 100%;
         height: 1px;
+        width: 100%;
+        background-color: rgba(251, 251, 251, 0.1);
         margin-bottom: 24px;
-    }
-
-    .div-end-info {
-        display: flex;
-        margin-bottom: 8px;
     }
 
     .p-end-text {
@@ -150,8 +144,8 @@
         font-size: 10px;
         line-height: 1.4;
         letter-spacing: -0.02em;
-        color: rgba(251, 251, 251, 0.5);
-        opacity: 0.9;
+        color: rgba(251, 251, 251, 0.5);   
+        opacity: 0.9;     
     }
 
     .footer-end-item {
@@ -184,47 +178,33 @@
 	}
 
     .web-footer {
-        max-width: 704px;
-        max-height: 540px;
-        margin-left: auto;
-        margin-right: auto;
+       max-width: 704px; 
     }
 
     .main-footer-div {
-        padding-bottom: 20px;
-        border-radius: 30px;
         padding: 40px 40px 28px 40px;
-        width: 640px;
-        height: 100%; 
-        background-color: #0c0c0c;
+        max-width: 704px;
+        height: 540px;
     }
 
     .footer-logo {
-        font-size: 20px;
+        font-size: 20px
     }
 
-    .footer-tel {
-        font-size: 14px;
-        line-height: 1.28571;
-        padding: 15px;
-        width: 129px;
-        height: 16px;
-        border-radius: 16px;
+    .footer-tabl-block {
+        display: flex;
     }
 
     .footer-box-one {
         margin-right: auto;
     }
 
-    .footer-tabl-block {
-        display: flex;
-        margin-bottom: 86px;
+    .footer-box-one, .footer-box-two {
+        margin-bottom: 0;
     }
 
-    .footer-box-three {
-        margin-left: auto;
-        margin-right: auto;
-        width: 534px;
+    .footer-tabl-block {
+        margin-bottom: 86px;
     }
 
     .footer-info-txt {
@@ -232,41 +212,45 @@
         line-height: 1.14286;
     }
 
-    .footer-box-one, .footer-box-two {
-        margin-bottom: 0;
+    .footer-box-three {
+        width: 534px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 100px;
     }
 
     .footer-box-four {
-       min-width: 400px;
-       margin-right: auto;
-    }
+        margin-right: auto;
+        max-width: 400px;
+        max-height: 18px;
+}
 
     .footer-ul-four {
-       gap: 19px;
+        flex-wrap: nowrap;
+        max-width: 400px;
+        max-height: 18px;
+        gap: 19px;
     }
 
     .f-box-four-item {
         font-size: 14px;
-        line-height: 1.29;
-    }
-
-    .footer-block-two {
-        margin-bottom: 28px;
-    }
-
-    .footer-box-five {
-        min-width: 170px;
-        max-height: 35px;
-    }
-
-    .f-box-four-address {
-        min-width: 170px;
-        max-height: 35px;
+        line-height: 1.28571;
     }
 
     .f-box-four-address {
         font-size: 14px;
         line-height: 1.28571;
+        display: flex;
+    }
+
+    .footer-box-five {
+        display: flex;
+        width: 166px;
+        height: 36px;
+    }
+
+    .footer-block-two {
+        margin-bottom: 28px;
     }
 
     .footer-line {
@@ -275,15 +259,10 @@
 
     .footer-end-info {
         display: flex;
-        max-height: 18px;
+        align-items: center;
     }
 
     .p-end-text {
-        font-size: 14px;
-        line-height: 1.28571;
-    }
-
-    .footer-end-item {
         font-size: 14px;
         line-height: 1.28571;
     }
@@ -292,9 +271,25 @@
         margin-right: auto;
     }
 
+    .footer-end-item {
+        font-size: 14px;
+        line-height: 1.28571;
+    }
 }
+/* ================================================================================= */
+/* ================================================================================= */
+/* ================================================================================= */
 
-        
-        
+@media screen and (min-width: 1280px) {
+	.container {
+		max-width: 1280px;
+		margin-right: auto;
+		margin-left: auto;
+		padding-left: 65px;
+		padding-right: 65px;
+	}
 
-       
+	.section {
+		padding-bottom: 100px;
+	}
+}
