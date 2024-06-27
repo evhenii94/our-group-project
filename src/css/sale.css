@@ -181,6 +181,7 @@
 	line-height: 1.33;
 	color: #fbfbfb;
 	background-color: inherit;
+	cursor: pointer;
 }
 
 .sub-btns:hover,
