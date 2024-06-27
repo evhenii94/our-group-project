@@ -10,10 +10,6 @@
 @import url("./contact.css");
 @import url("./footer.css");
 
-*::before , *::after {
-	box-sizing: border-box;
-} 
-
 body {
 	font-family: Gilroy, sans-serif;
 	font-size: 16px;
