@@ -81,8 +81,8 @@
 .watch-sale {
 	/* max-width: 410px;
     max-height: 438px; */
-	width: 279px;
-	height: 465px;
+	width: 335px;
+	min-height: 561px;
 	background-color: #3350e9;
 	border-radius: 50px;
 	/* padding: 60px; */
@@ -206,6 +206,12 @@
 /* MEDIA */
 
 @media screen and (min-width: 768px) {
+
+	.sale-block {
+		margin-right: auto;
+		margin-left: auto;
+
+	}
 	.sale {
 		padding-bottom: 80px;
 	}
@@ -246,7 +252,7 @@
 		height: 398px;
 	}
 	.watch-sale {
-		width: 584px;
+		width: 100%;
 		height: 398px;
 		padding: 60px;
 	}
