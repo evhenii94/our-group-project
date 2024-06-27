@@ -35,12 +35,19 @@
 	flex-direction: row;
 	/* gap: 10px; */
 	gap: 5px;
+    max-width: 100%;
+    width: 100%;
+}
+
+.sale-list li {
+    flex: 1;
+    min-width: 0;
 }
 
 .sale-items {
 	/* width: 132px;
     height: 132px; */
-	width: 80px;
+	max-width: 80px;
 	height: 80px;
 	background-color: #f3f3f3;
 	border: 1px solid rgba(12, 12, 12, 0.05);
@@ -51,14 +58,15 @@
 }
 
 .sale-img {
-	width: 52px;
+	/* max-width: 52px; */
+    max-width: 100%;
 	height: 54px;
 }
 
 .watch-container {
 	/* width: 428px;
     height: 558px; */
-	width: 335px;
+	max-width: 335px;
 	height: 385px;
 	background-color: #f3f3f3;
 	border: 1px solid rgba(12, 12, 12, 0.05);
@@ -74,7 +82,8 @@
 .watch-img {
 	/* width: 328px;
     height: 398px; */
-	width: 235px;
+	max-width: 235px;
+    min-width: 0;
 	height: 285px;
 	transition: transform 0.5s ease;
 }
@@ -82,7 +91,7 @@
 .watch-sale {
 	/* max-width: 410px;
     max-height: 438px; */
-	width: 335px;
+	max-width: 335px;
 	min-height: 561px;
 	background-color: #3350e9;
 	border-radius: 50px;
@@ -132,7 +141,7 @@
 
 .sale-btn {
 	/* width: 78px; */
-	width: 68px;
+	max-width: 68px;
 	height: 32px;
 	font-weight: 600;
 	/* font-size: 20px;
@@ -204,7 +213,27 @@
 	background-color: #1f3cd4;
 }
 
+
 /* MEDIA */
+
+@media screen and (min-width: 375px) {
+    .sale-items {
+        width: 80px;
+    }
+    .sale-img {
+        width: 52px;
+    }
+    .watch-container {
+        max-width: none;
+        width: 335px;
+    }
+    .watch-img {
+        width: 235px;
+    }
+    .sale-btn {
+        width: 68px;
+    }
+}
 
 @media screen and (min-width: 768px) {
 
@@ -229,8 +258,10 @@
 	.sale-list {
 		flex-direction: column;
 		gap: 10px;
+        height: 558px;
 	}
 	.sale-items {
+        max-width: none;
 		width: 132px;
 		height: 132px;
 	}
@@ -249,12 +280,14 @@
 		margin-bottom: 0;
 	}
 	.watch-img {
+        max-width: none;
 		width: 328px;
 		height: 398px;
 	}
 	.watch-sale {
+        max-width: none;
 		width: 100%;
-		height: 398px;
+		min-height: 518px;
 		padding: 60px;
 	}
 	.sale-subtitle {
@@ -298,7 +331,9 @@
 		margin-bottom: 40px;
 	}
 
-
+    .sale-container {
+        margin-bottom: 0;
+    }
 
 	.watch-container {
 		width: 428px;
@@ -331,6 +366,8 @@
 	/* ==================================================================================== */
 
 	.watch-sale {
+		/* width: 410px; */
+		min-height: 558px;
 		height: 438px;
 		padding: 60px;
 		
