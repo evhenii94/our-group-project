@@ -1,5 +1,5 @@
 /* ===================================SALE============================================== */
-@media screen and (max-width: 375px) {
+
 .sale {
 	/* padding-bottom: 100px; */
 	padding-bottom: 60px;
@@ -82,7 +82,8 @@
 .watch-img {
 	/* width: 328px;
     height: 398px; */
-	width: 235px;
+	max-width: 235px;
+    min-width: 0;
 	height: 285px;
 }
 
@@ -210,7 +211,7 @@
 .sub-btns:focus {
 	background-color: #1f3cd4;
 }
-}
+
 
 /* MEDIA */
 
@@ -222,10 +223,11 @@
         width: 52px;
     }
     .watch-container {
+        max-width: none;
         width: 335px;
     }
     .watch-img {
-        width: 335px;
+        width: 235px;
     }
     .sale-btn {
         width: 68px;
@@ -255,8 +257,10 @@
 	.sale-list {
 		flex-direction: column;
 		gap: 10px;
+        height: 558px;
 	}
 	.sale-items {
+        max-width: none;
 		width: 132px;
 		height: 132px;
 	}
@@ -275,10 +279,12 @@
 		margin-bottom: 0;
 	}
 	.watch-img {
+        max-width: none;
 		width: 328px;
 		height: 398px;
 	}
 	.watch-sale {
+        max-width: none;
 		width: 100%;
 		height: 398px;
 		padding: 60px;
