@@ -1,6 +1,5 @@
 /* ===================================SALE============================================== */
 
-
 .sale {
 	/* padding-bottom: 100px; */
 	padding-bottom: 60px;
@@ -192,7 +191,6 @@
 /* MEDIA */
 
 @media screen and (min-width: 768px) {
-	
 	.sale {
 		padding-bottom: 80px;
 	}
@@ -203,7 +201,7 @@
 	}
 	.tablet-container {
 		width: 640px;
-		
+
 		margin-bottom: 40px;
 	}
 	.sale-list-container {
