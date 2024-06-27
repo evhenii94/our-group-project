@@ -1,9 +1,6 @@
 /* ===================================FOOTER============================================== */
-
-
-
-@media screen and (min-width: 375px) {
-	.container {
+@media screen and (min-width: 375px) { 
+    .container {
 		max-width: 375px;
 		margin-right: auto;
 		margin-left: auto;
@@ -18,7 +15,7 @@
     .main-footer-div {
         border-radius: 30px;
         padding: 40px 28px 28px 28px;
-        height: 581px;
+        height: 513px;
         width: 279px;
         background-color: #0c0c0c; 
 
@@ -92,4 +89,81 @@
         color: #fbfbfb;
         font-family: "Gilroy", sans-serif;
     }
+
+    .footer-block-two {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .footer-box-four {
+        max-width: 147px;
+        margin-right: auto;
+    }
+
+    .footer-ul-four {
+        display: flex;
+        gap: 0px 16px;
+        flex-wrap: wrap;
+    }
+
+    .footer-li-four {
+        margin: 0;
+        padding: 0;
+    }
+
+    .f-box-four-item {
+        font-family: "Gilroy", sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 1.33333;
+        text-align: center;
+        color: #fbfbfb; 
+    }
+
+    .f-box-four-address {
+        display: flex;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 1.33333;
+        color: #fbfbfb;
+        font-family: "Gilroy", sans-serif;        
+    }
+
+    .footer-box-five {
+        max-width: 83px;
+    }
+
+    .footer-line {
+        width: 279px;
+        height: 1px;
+        background-color: rgba(251, 251, 251, 0.1);
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .p-end-text {
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 1.4;
+        letter-spacing: -0.02em;
+        color: rgba(251, 251, 251, 0.5);
+        opacity: 0.9;
+    }
+
+    .footer-end-item {
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 1.4;
+        letter-spacing: -0.02em;
+        text-align: right;
+        color: rgba(251, 251, 251, 0.5);
+        font-family: Gilroy, sans-serif;
+    }
+    
+    .footer-end-item:not(:last-child) {
+        margin-right: 20px;
+    }
+
+
+
 }
