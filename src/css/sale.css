@@ -85,6 +85,7 @@
 	max-width: 235px;
     min-width: 0;
 	height: 285px;
+	transition: transform 0.5s ease;
 }
 
 .watch-sale {
@@ -344,7 +345,7 @@
 	.watch-img {
 		cursor: pointer;
 		object-fit: cover;
-		transition: transform 0.5s ease;
+		
 	}
 
 	.sale-list-container {
@@ -367,6 +368,7 @@
 	.watch-sale {
 		/* width: 410px; */
 		min-height: 558px;
+		height: 438px;
 		padding: 60px;
 		
 	}
