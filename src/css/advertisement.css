@@ -1,1 +1,103 @@
-/* ===================================ADVERTISEMENT============================================== */
+.advertisement-wrap{
+    background-image: url(../img/advertisement-bg-img-mob.png),
+    linear-gradient(#0C0C0C, #0C0C0C);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 60px 28px;
+    border-radius: 30px;
+}
+
+@media screen and (min-resolution:192dpi) {
+    .advertisement-wrap {
+        background-image: url(../img/advertisement-bg-img-mob@2x.png),
+        linear-gradient(#0C0C0C, #0C0C0C);
+    }  
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.advertisement-text {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb; 
+    margin-bottom: 28px;
+}
+
+.advertisement-span {
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.advertisement-link {
+    border: 1px solid rgba(251, 251, 251, 0.15);
+    border-radius: 16px;
+    width: 160px;
+    height: 48px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    padding: 15px 44px;
+    color: #fbfbfb;
+}
+
+.advertisement-link:hover,
+.advertisement-link:focus {
+    border: 1px solid rgba(251, 251, 251, 0.15);
+    text-align: center;
+    color: #0C0C0C;
+}
+
+@media screen and (min-width:768px) {
+    .advertisement-wrap{
+        background-image: url(../img/advertisement-bg-img-tablet.png),
+        linear-gradient(#0C0C0C, #0C0C0C);  
+        padding: 80px 64px;
+        @media screen and (min-resolution:192dpi) {
+            background-image: url(../img/bg-img-tablet@2x.png),
+            linear-gradient(#0C0C0C, #0C0C0C);  
+        }
+    }
+    
+    .advertisement-text {
+        font-size: 48px;
+        line-height: 0.92;
+        margin-bottom: 32px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .advertisement-wrap{
+        background-image: url(../img/advertisement-bg-img-desktop.png),
+        linear-gradient(#0C0C0C, #0C0C0C);
+        @media screen and (min-resolution:192dpi) {
+            background-image: url(../img/advertisement-bg-img-desktop@2x.png),
+            linear-gradient(#0C0C0C, #0C0C0C);  
+        }
+        padding: 83px 80px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .advertisement-text {
+      font-size: 48px;
+      max-width: 690px;
+    }
+
+    .advertisement-link {
+        margin-left: auto;
+    }
+}
