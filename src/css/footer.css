@@ -1,13 +1,9 @@
 /* ===================================FOOTER============================================== */
-
-
-
-
 	.section {
 		padding-bottom: 60px;
 	}
 
-  /*  .web-footer {
+/*.web-footer {
        padding-bottom: 20px;
        max-width: 335px;
        margin-right: auto;
@@ -17,9 +13,9 @@
     .main-footer-div {
       padding: 40px 28px 28px 28px;
  
-      max-width: 335px;
-       margin-right: auto;
-       margin-left: auto;
+        max-width: 335px;
+        margin-right: auto;
+        margin-left: auto;
         max-height: 581px;   
         border-radius: 30px;
         background-color: #0c0c0c;
