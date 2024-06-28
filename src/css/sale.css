@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 /* ===================================SALE============================================== */
 
 .sale {
@@ -174,16 +173,10 @@
 	margin-bottom: 28px;
 }
 
-.sale-btn-list {
-}
-
 .btn-list {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 8px;
-}
-
-.btn-items {
 }
 
 .sub-btns {
@@ -354,4 +347,4 @@
 		line-height: 1.28;
 	}
 }
->>>>>>> footer2
+
