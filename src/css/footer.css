@@ -1,6 +1,6 @@
 /* ===================================FOOTER============================================== */
 
-
+@media screen and (min-width: 375px) {
     .container {
 		max-width: 375px;
 		margin-right: auto;
@@ -160,6 +160,7 @@
     .footer-end-item:not(:last-child) {
         margin-right: 20px;
     }
+}
 /* ================================================================================= */
 /* ================================================================================= */
 /* ================================================================================= */
@@ -170,7 +171,7 @@
 		margin-right: auto;
 		margin-left: auto;
 		padding-left: 32px;
-		padding-right: 32px;
+		padding-right: 32px;  
 	}
 
 	.section {
@@ -182,7 +183,7 @@
     }
 
     .main-footer-div {
-        padding: 40px 40px 28px 40px; 
+    /*  padding: 40px 40px 28px 40px; */
         max-width: 704px;
         height: 540px;
     }
