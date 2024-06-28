@@ -23,7 +23,7 @@
 
     .main-footer-div {
         border-radius: 30px;
-        padding: 40px 28px 28px 28px;
+        padding: 40px 28px 28px 28px; 
         max-width: 335px;
         height: 581px;
         background-color: #0c0c0c;
@@ -182,7 +182,7 @@
     }
 
     .main-footer-div {
-        padding: 40px 40px 28px 40px;
+        padding: 40px 40px 28px 40px; 
         max-width: 704px;
         height: 540px;
     }
@@ -298,7 +298,7 @@
     }
 
     .main-footer-div {
-        padding: 40px 40px 28px 40px;
+    /*  padding: 40px 40px 28px 40px; */
         max-width: 1216px;
         height: 400px;
         position: relative;
