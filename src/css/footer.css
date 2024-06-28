@@ -1,31 +1,27 @@
 /* ===================================FOOTER============================================== */
 
-@media screen and (min-width: 375px) {
-    .container {
-		max-width: 375px;
-		margin-right: auto;
-		margin-left: auto;
-		padding-left: 20px;
-		padding-right: 20px;
-	}
+
+
 
 	.section {
 		padding-bottom: 60px;
 	}
 
-    .web-footer {
+  /*  .web-footer {
        padding-bottom: 20px;
        max-width: 335px;
        margin-right: auto;
        margin-left: auto;
-       
-    }
+    } */
 
     .main-footer-div {
+      padding: 40px 28px 28px 28px;
+ 
+      max-width: 335px;
+       margin-right: auto;
+       margin-left: auto;
+        max-height: 581px;   
         border-radius: 30px;
-        padding: 40px 28px 28px 28px; 
-        max-width: 335px;
-        height: 581px;
         background-color: #0c0c0c;
     }
 
@@ -160,176 +156,13 @@
     .footer-end-item:not(:last-child) {
         margin-right: 20px;
     }
-}
-/* ================================================================================= */
-/* ================================================================================= */
-/* ================================================================================= */
 
-@media screen and (min-width: 768px) {
-	.container {
-		max-width: 768px;
-		margin-right: auto;
-		margin-left: auto;
-		padding-left: 32px;
-		padding-right: 32px;  
-	}
-
-	.section {
-		padding-bottom: 80px;
-	}
-
-    .web-footer {
-       max-width: 704px; 
-    }
-
+    
+@media screen and (min-width: 375px) {
     .main-footer-div {
-    /*  padding: 40px 40px 28px 40px; */
-        max-width: 704px;
-        height: 540px;
+      max-width: none;
+      width: 335px;
+      padding-right: 28px;
+      padding-left: 28px;
     }
-
-    .footer-logo {
-        font-size: 20px
-    }
-
-    .footer-tabl-block {
-        display: flex;
-    }
-
-    .footer-box-one {
-        margin-right: auto;
-    }
-
-    .footer-box-one, .footer-box-two {
-        margin-bottom: 0;
-    }
-
-    .footer-tabl-block {
-        margin-bottom: 86px;
-    }
-
-    .footer-info-txt {
-        font-size: 28px;
-        line-height: 1.14286;
-    }
-
-    .footer-box-three {
-        width: 534px;
-        margin-right: auto;
-        margin-left: auto;
-        margin-bottom: 100px;
-    }
-
-    .footer-box-four {
-        margin-right: auto;
-        max-width: 400px;
-        max-height: 18px;
-    }
-
-    .footer-ul-four {
-        flex-wrap: nowrap;
-        max-width: 400px;
-        max-height: 18px;
-        gap: 19px;
-    }
-
-    .f-box-four-item {
-        font-size: 14px;
-        line-height: 1.28571;
-    }
-
-    .f-box-four-address {
-        font-size: 14px;
-        line-height: 1.28571;
-        display: flex;
-    }
-
-    .footer-box-five {
-        display: flex;
-        width: 166px;
-        height: 36px;
-    }
-
-    .footer-block-two {
-        margin-bottom: 28px;
-    }
-
-    .footer-line {
-        margin-bottom: 28px;
-    }
-
-    .footer-end-info {
-        display: flex;
-        align-items: center;
-    }
-
-    .p-end-text {
-        font-size: 14px;
-        line-height: 1.28571;
-    }
-
-    .class-one {
-        margin-right: auto;
-    }
-
-    .footer-end-item {
-        font-size: 14px;
-        line-height: 1.28571;
-    }
-}
-/* ================================================================================= */
-/* ================================================================================= */
-/* ================================================================================= */
-
-@media screen and (min-width: 1280px) {
-	.container {
-		max-width: 1280px;
-		margin-right: auto;
-		margin-left: auto;
-		padding-left: 65px;
-		padding-right: 65px;
-	}
-
-	.section {
-		padding-bottom: 100px;
-	}
-
-    .web-footer {
-       max-width: 1216px; 
-    }
-
-    .main-footer-div {
-    /*  padding: 40px 40px 28px 40px; */
-        max-width: 1216px;
-        height: 400px;
-        position: relative;
-    }
-
-    .footer-tabl-block {
-        margin-bottom: 0;
-    }
-
-    .footer-box-one {
-        margin-right: auto;
-        margin-bottom: 142px;
-    }
-
-    .footer-box-three {
-        position: absolute;
-        left: 50%;
-        top: 40px;
-        transform: translateX(-50%);
-        margin-bottom: 0;
-    }
-
-    .footer-box-four {
-        max-width: 500px;
-    }
-
-    .footer-ul-four {
-        gap: 40px;  
-        max-width: 500px;
-    }
-
-
 }
