@@ -1,8 +1,5 @@
 // -------------------------- HEADER SCRIPT--------------------------//
 
-
-// -------------------------- HEADER SCRIPT--------------------------//
-
 document.addEventListener("DOMContentLoaded", function () {
 	const openMenuButton = document.querySelector('.open-menu-button');
 	const closeMenuButton = document.querySelector('.close-menu-btn');
@@ -21,11 +18,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	openMenuButton.addEventListener('click', function () {
 		mobMenu.classList.add('open');
+   
 		body.classList.add('no-scroll');
+
 	});
 
 	closeMenuButton.addEventListener('click', function () {
 		mobMenu.classList.remove('open');
+    
 		body.classList.remove('no-scroll');
 	});
 	document.addEventListener("DOMContentLoaded", function () {
@@ -50,14 +50,13 @@ document.addEventListener("DOMContentLoaded", function () {
 			// Добавляем класс 'active' к нажатой ссылке
 			this.classList.add('active');
 		});
+
 	});
 });
 
 
 // --------------------------SALE HEADER SCRIPT--------------------------//
 
-
-// --------------------------HEADER SCRIPT--------------------------//
 
 // --------------------------SALE SECTION SCRIPT--------------------------//
 
