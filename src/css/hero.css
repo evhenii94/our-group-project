@@ -80,10 +80,10 @@
 	min-height: 368px;
 	max-width: 375px;
 	background-size: cover;
-	background: url(../img/hero-img-mob-min.png);
+	background: url(/img/hero-img-mob.png);
 	background-size: cover;
 	@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-			background: url(/img/hero-img-mob-2x-min.png);
+			background: url(/img/hero-img-mob@2x.png);
 			background-size: cover;
 	}
 }
@@ -151,12 +151,12 @@
 	}
 
 	.hero-img {
-		background: url(../img/hero-tab.png);
+		background: url(/img/hero-tabler-img.png);
 		background-size: cover;
 		min-height: 520px;
 		width: 704px;
 		@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-			background: url(/img/hero-tab-2x.png);
+			background: url(/img/hero-tabler-img@2x.png);
 			background-size: cover;
 		}
 	}
