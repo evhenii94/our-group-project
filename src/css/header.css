@@ -62,9 +62,9 @@
     display: flex;
     flex-direction: column;
     overflow: auto;
-    visibility: hidden;
+    /* visibility: hidden;
     opacity: 0;
-    pointer-events: 0;
+    pointer-events: 0; */
 
 }
 .mob-link-list {
