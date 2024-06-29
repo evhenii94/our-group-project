@@ -25,13 +25,11 @@
 
 
 @media screen and (min-width:375px) {
-    .catalog-list li:nth-child(5) {
-        display: none;
-    }
+    .hidden {
+			display: none;
+		}
 
-    .catalog-list li:nth-child(6) {
-        display: none;
-    }
+    
 }
 
 

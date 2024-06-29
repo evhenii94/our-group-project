@@ -56,6 +56,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // --------------------------SALE HEADER SCRIPT--------------------------//
 
+// --------------------------CATALOG SECTION SCRIPT--------------------------//
+
+document.addEventListener("DOMContentLoaded", function () {
+	const showMoreButton = document.querySelector('.catalog-btn');
+	const hiddenItems = document.querySelectorAll('.catalog-item.hidden');
+
+	showMoreButton.addEventListener('click', function () {
+		hiddenItems.forEach(item => {
+			item.classList.remove('hidden');
+		});
+		showMoreButton.style.display = 'none'; 
+	});
+});
+
+
+// --------------------------CATALOG SECTION SCRIPT--------------------------//
+
 
 // --------------------------SALE SECTION SCRIPT--------------------------//
 
