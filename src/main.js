@@ -2,27 +2,27 @@
 
 
 document.addEventListener("DOMContentLoaded", function () {
-	const mainImage = document.getElementById('main-img');
+	const mainImg = document.getElementById('main-img');
 	const thumbnails = document.querySelectorAll('.thumbnail');
 
 	thumbnails.forEach(thumbnail => {
 		thumbnail.addEventListener('click', function () {
-			const mainSrc = mainImage.src;
-			const mainSrcset = mainImage.srcset;
+			const mainSrc = mainImg.src;
+			const mainSrcset = mainImg.srcset;
 			const newSrc = this.src;
 			const newSrcset = this.srcset;
 
 			// Swap the images
-			mainImage.src = newSrc;
-			mainImage.srcset = newSrcset;
+			mainImg.src = newSrc;
+			mainImg.srcset = newSrcset;
 			this.src = mainSrc;
 			this.srcset = mainSrcset;
 
 			// Add transition effect
-			mainImage.style.transform = 'scale(1.05)';
+			mainImg.style.transform = 'scale(1.05)';
 			setTimeout(() => {
-				mainImage.style.transform = 'scale(1)';
-			}, 300);
+				mainImg.style.transform = 'scale(1)';
+			}, 300 );
 		});
 	});
 });
