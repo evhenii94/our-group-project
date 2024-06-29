@@ -112,7 +112,12 @@
     font-size: 12px;
     line-height: 1.33333;
     text-align: center;
-    color: #fbfbfb;        
+    color: #fbfbfb;    
+    filter: brightness(80%);    
+}
+
+.f-box-four-item:hover {
+    filter: brightness(100%);
 }
 
 .footer-box-five {
