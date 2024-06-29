@@ -18,7 +18,6 @@
     max-height: 581px;   
     border-radius: 30px;
     background-color: #0c0c0c;
-    margin-bottom: 20px;
 }
 
 .footer-box-one {
@@ -32,6 +31,11 @@
     color: #fbfbfb;
     margin-bottom: 20px;
     display: flex;
+    filter: brightness(75%);
+}
+
+.footer-logo:hover, .footer-logo:focus {
+    filter: brightness(100%);
 }
 
 .footer-soc-links {
@@ -72,6 +76,11 @@
     height: 44px;
     padding: 14px 20px;
     display: flex;
+    filter: brightness(75%);
+}
+
+.footer-tel:hover, .footer-tel:focus {
+    filter: brightness(100%);
 }
 
 .footer-box-two {
@@ -114,10 +123,10 @@
     line-height: 1.33333;
     text-align: center;
     color: #fbfbfb;    
-    filter: brightness(80%);    
+    filter: brightness(75%);    
 }
 
-.f-box-four-item:hover {
+.f-box-four-item:hover, .f-box-four-item:focus {
     filter: brightness(100%);
 }
 
@@ -132,6 +141,11 @@
     font-size: 12px;
     line-height: 1.33333;
     color: #fbfbfb;
+    filter: brightness(75%);   
+}
+
+.f-box-four-address:hover, .f-box-four-address:focus {
+    filter: brightness(100%);
 }
 
 .footer-line {
@@ -157,6 +171,11 @@
     letter-spacing: -0.02em;
     text-align: right;
     color: rgba(251, 251, 251, 0.5);
+    filter: brightness(75%);   
+}
+
+.footer-end-item:hover, .footer-end-item:focus {
+    filter: brightness(100%);
 }
 
 .footer-end-item:not(:last-child) {
