@@ -27,4 +27,4 @@ document.addEventListener("DOMContentLoaded", function () {
 	});
 });
 
-// --------------------------SALE SECTION SCRIPT--------------------------
+// --------------------------SALE SECTION SCRIPT------------------------git
