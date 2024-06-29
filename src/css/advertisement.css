@@ -68,11 +68,14 @@
     .advertisement-wrap{
         background-image: url(../img/advertisement-bg-img-tablet.png),
         linear-gradient(#0C0C0C, #0C0C0C);  
-        @media screen and (min-resolution:192dpi) {
-            background-image: url(../img/bg-img-tablet@2x.png),
-            linear-gradient(#0C0C0C, #0C0C0C);  
-        }
         padding: 80px 64px;
+    }
+
+    @media screen and (min-resolution:192dpi) {
+        .advertisement-wrap {
+                background-image: url(../img/bg-img-tablet@2x.png),
+                linear-gradient(#0C0C0C, #0C0C0C);  
+        }
     }
     
     .advertisement-text {
@@ -87,13 +90,16 @@
     .advertisement-wrap{
         background-image: url(../img/advertisement-bg-img-desktop.png),
         linear-gradient(#0C0C0C, #0C0C0C);
-        @media screen and (min-resolution:192dpi) {
-            background-image: url(../img/advertisement-bg-img-desktop@2x.png),
-            linear-gradient(#0C0C0C, #0C0C0C);  
-        }
         padding: 83px 80px;
         display: flex;
         flex-wrap: wrap;
+    }
+
+    @media screen and (min-resolution:192dpi) {
+        .advertisement-wrap {
+            background-image: url(../img/advertisement-bg-img-desktop@2x.png),
+            linear-gradient(#0C0C0C, #0C0C0C);  
+        }
     }
 
     .advertisement-text {
