@@ -4,8 +4,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 60px 28px;
     border-radius: 30px;
+    padding: 60px 28px;
 }
 
 @media screen and (min-resolution:192dpi) {
@@ -14,6 +14,7 @@
         linear-gradient(#0C0C0C, #0C0C0C);
     }  
 }
+
 
 .visually-hidden {
     position: absolute;
@@ -35,6 +36,8 @@
     letter-spacing: -0.02em;
     color: #fbfbfb; 
     margin-bottom: 28px;
+    display: block;
+    max-width: 279px;
 }
 
 .advertisement-span {
@@ -65,17 +68,18 @@
     .advertisement-wrap{
         background-image: url(../img/advertisement-bg-img-tablet.png),
         linear-gradient(#0C0C0C, #0C0C0C);  
-        padding: 80px 64px;
         @media screen and (min-resolution:192dpi) {
             background-image: url(../img/bg-img-tablet@2x.png),
             linear-gradient(#0C0C0C, #0C0C0C);  
         }
+        padding: 80px 64px;
     }
     
     .advertisement-text {
         font-size: 48px;
         line-height: 0.92;
         margin-bottom: 32px;
+        max-width: 576px;
     }
 }
 
@@ -94,7 +98,8 @@
 
     .advertisement-text {
       font-size: 48px;
-      max-width: 690px;
+      line-height: 0.92;
+      min-width: 690px;
     }
 
     .advertisement-link {
