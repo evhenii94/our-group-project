@@ -52,6 +52,11 @@
 
 .footer-svg {
     fill: #fbfbfb;
+    filter: brightness(75%);
+}
+
+.footer-svg:hover, .footer-svg:focus {
+    filter: brightness(100%);
 }
 
 .footer-tel {
