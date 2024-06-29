@@ -16,11 +16,15 @@
 	box-sizing: border-box;
 }
 
+html{
+
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
 	font-family: Gilroy, sans-serif;
-	font-size: 16px;
-	line-height: 24px;
-	font-weight: 400;
 	color: #0c0c0c;
 	background-color: rgba(255, 255, 255, 0.87);
 	font-synthesis: none;
@@ -28,10 +32,12 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-text-size-adjust: 100%;
+	overflow-x: hidden;
 }
 
+
 .no-scroll {
-    overflow: hidden;
+	overflow: hidden;
 }
 
 /* ----------------------------MOBILE MEDIA---------------------------- */
@@ -69,8 +75,6 @@ section {
 @media screen and (min-width: 768px) {
 	.container {
 		max-width: 768px;
-		margin-right: auto;
-		margin-left: auto;
 		padding-left: 32px;
 		padding-right: 32px;
 	}
@@ -99,6 +103,3 @@ section {
 }
 
 /* ----------------------------DESCTOP MEDIAV---------------------------- */
-
-
-
