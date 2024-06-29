@@ -18,17 +18,45 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	openMenuButton.addEventListener('click', function () {
 		mobMenu.classList.add('open');
-		body.classList.add('no-scroll'); 
+   
+		body.classList.add('no-scroll');
+
 	});
 
 	closeMenuButton.addEventListener('click', function () {
 		mobMenu.classList.remove('open');
-		body.classList.remove('no-scroll'); 
+    
+		body.classList.remove('no-scroll');
+	});
+	document.addEventListener("DOMContentLoaded", function () {
+		const firstItemLink = document.querySelector('.mob-item-link.first-item');
+
+		// Обработчик клика на первый пункт меню
+		firstItemLink.addEventListener('click', function () {
+			// Добавляем класс для активного состояния (или другой атрибут)
+			this.classList.toggle('active');
+		});
+	});
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+	const headerLinks = document.querySelectorAll('.header-item-link, .mob-item-link');
+
+	headerLinks.forEach(link => {
+		link.addEventListener('click', function (event) {
+			// Удаляем класс 'active' у всех ссылок
+			headerLinks.forEach(link => link.classList.remove('active'));
+
+			// Добавляем класс 'active' к нажатой ссылке
+			this.classList.add('active');
+		});
+
 	});
 });
 
 
 // --------------------------SALE HEADER SCRIPT--------------------------//
+
 
 // --------------------------SALE SECTION SCRIPT--------------------------//
 
