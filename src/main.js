@@ -1,4 +1,36 @@
-// --------------------------SALE SECTION SCRIPT--------------------------
+// -------------------------- HEADER SCRIPT--------------------------//
+
+document.addEventListener("DOMContentLoaded", function () {
+	const openMenuButton = document.querySelector('.open-menu-button');
+	const closeMenuButton = document.querySelector('.close-menu-btn');
+	const mobMenu = document.querySelector('.mob-menu');
+	const body = document.querySelector('body');
+
+	document.addEventListener('click', function (event) {
+		const isClickInsideMobMenu = mobMenu.contains(event.target);
+		const isClickInsideOpenMenuButton = openMenuButton.contains(event.target);
+
+		if (!isClickInsideMobMenu && !isClickInsideOpenMenuButton && mobMenu.classList.contains('open')) {
+			mobMenu.classList.remove('open');
+			headerContainer.classList.remove('no-scroll');
+		}
+	});
+
+	openMenuButton.addEventListener('click', function () {
+		mobMenu.classList.add('open');
+		body.classList.add('no-scroll'); 
+	});
+
+	closeMenuButton.addEventListener('click', function () {
+		mobMenu.classList.remove('open');
+		body.classList.remove('no-scroll'); 
+	});
+});
+
+
+// --------------------------SALE HEADER SCRIPT--------------------------//
+
+// --------------------------SALE SECTION SCRIPT--------------------------//
 
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -27,4 +59,4 @@ document.addEventListener("DOMContentLoaded", function () {
 	});
 });
 
-// --------------------------SALE SECTION SCRIPT--------------------------
+// --------------------------SALE SECTION SCRIPT--------------------------//
