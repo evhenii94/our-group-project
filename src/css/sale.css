@@ -7,7 +7,7 @@
 
 .sale-title {
 	/* font-family: "Gilroy", sans-serif; */
-	font-weight: 600;
+	font-weight: bold;
 	/* font-size: 48px; */
 	font-size: 32px;
 	/* line-height: 0.92; */
@@ -112,7 +112,7 @@
 }
 
 .sale-subtitle {
-	font-weight: 600;
+	font-weight: bold;
 	/* font-size: 32px;
     line-height: 1.125; */
 	font-size: 24px;
