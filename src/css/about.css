@@ -57,8 +57,8 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-			background-image: url("/img/about-img-mob@2x.png");
-			background-size: cover;
+		background-image: url("/img/about-img-mob@2x.png");
+		background-size: cover;
 	}
 }
 
@@ -99,14 +99,14 @@
 		max-width: none;
 		width: 704px;
 		min-height: 512px;
-		background-size: cover
+		background-size: cover;
 	}
 
 	.about-img-block {
 		@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-				background-image: url("../img/about-img-tab2x.png");
-				background-size: cover;
-			}
+			background-image: url("../img/about-img-tab2x.png");
+			background-size: cover;
+		}
 	}
 }
 
@@ -117,13 +117,18 @@
 
 	.about-text-block {
 		width: 580px;
-		
 	}
 
 	.about-title {
 	}
 
 	.about-text {
+
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 20px;
+		letter-spacing: -0.02em;
+		text-align: left;
 	}
 
 	.about-btn {
