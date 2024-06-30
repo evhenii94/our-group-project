@@ -52,6 +52,7 @@
 	text-align: center;
 	padding: 15px 44px;
 	color: #fbfbfb;
+	text-wrap: nowrap;
 }
 
 .advertisement-link:hover ,
