@@ -124,7 +124,9 @@
     line-height: 1.33333;
     text-align: center;
     color: #fbfbfb;    
-    filter: brightness(75%);    
+    filter: brightness(75%);  
+		padding-top: 12px;
+		padding-bottom: 12px;  
 }
 
 .f-box-four-item:hover, .f-box-four-item:focus {
