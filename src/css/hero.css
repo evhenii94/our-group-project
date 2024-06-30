@@ -1,7 +1,11 @@
 /* ===================================HERO============================================== */
 .hero-section {
-	margin-top: 75px;
+	margin-top: 50px;
 	padding-bottom: 30px;
+}
+
+.hero-container {
+	padding-top: 30px;
 }
 
 .hero-title {
@@ -11,6 +15,7 @@
 	line-height: 0.95;
 	letter-spacing: -0.02em;
 	color: #0c0c0c;
+	
 }
 .hero-title-collection {
 	color: #3350e9;
