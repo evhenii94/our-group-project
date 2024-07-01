@@ -1,0 +1,50 @@
+<section class="contact">
+  <div class="container">
+    <h2 class="contact-header">Contact Us</h2>
+    <div class="contact-content-container">
+      <div class="contact-form-container">
+        <p class="contact-form-container-p">
+            Please use the form below to contact us. Enter your name, email,
+            phone, and message and we'll get back to you shortly.
+          </p>
+        <form class="contact-form">
+          <div class="contact-form-inputs-container">
+            <input
+              class="contact-form-input"
+              type="text"
+              name="user-name"
+              placeholder="Name"
+              required
+            />
+            <input
+              class="contact-form-input"
+              type="email"
+              name="email"
+              placeholder="Email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              required
+            />
+            <input
+              class="contact-form-input"
+              type="tel"
+              name="phone"
+              placeholder="+380"
+              pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+              required
+            />
+            <textarea
+              class="contact-form-textarea"
+              name="user-comment"
+              rows="4"
+              placeholder="Comment"
+              id="user-comment"
+            ></textarea>
+          </div>
+          <button class="contact-form-submit-btn" type="submit">Send</button>
+        </form>
+      </div>
+      <div class="contact-img-container">
+      </div>
+    </div>
+  </div>
+</section>
