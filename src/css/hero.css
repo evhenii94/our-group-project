@@ -82,7 +82,7 @@
 	max-width: 375px;
 	background-size: cover;
 	background: url(/img/hero-img-mob.jpg);
-	background-size: cover;
+	background-position: center;
 	@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
 			background: url(/img/hero-img-mob2x.jpg);
 			background-size: cover;
@@ -195,6 +195,7 @@
 	.hero-img {
 		background: url(/img/hero-img.jpg);
 		background-size: cover;
+		background-position: center;
 		min-height: 500px;
 		width: 1150px;
 		@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
