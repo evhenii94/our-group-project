@@ -78,8 +78,7 @@ footer {
 	filter: brightness(80%);
 }
 
-
-.footer-tel:focus, 
+.footer-tel:focus,
 .footer-tel:hover {
 	filter: brightness(110%);
 }
@@ -212,6 +211,7 @@ footer {
 	.footer-ul-four {
 		max-width: none;
 	}
+	
 
 	.f-box-four-address {
 		width: 162px;
@@ -233,7 +233,7 @@ footer {
 		margin-top: -83px;
 	}
 
-		.footer-block-one-section2 {
+	.footer-block-one-section2 {
 		margin-top: 263px;
 	}
 }
