@@ -88,12 +88,18 @@
 	display: flex;
 	top: 0;
 	right: -100%;
-	min-height: 812px;
+	min-height: 810px;
 	position: absolute;
 	padding: 20px 20px 40px 20px;
 	width: 200px;
-	height: 100%;
-	background-image: url(/img/mobile-menu-bg.png);
+	background: url(../img/mobile-menu-bg.png);
+	background-size: cover;
+	@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+			background: url(../img/mobile-menu-bg@2x.png);
+			background-size: cover;
+			background-position: center;
+	}
+	
 	flex-direction: column;
 	overflow: auto;
 	transition: right 0.8s ease;
@@ -161,9 +167,6 @@
 }
 
 @media screen and (min-width: 768px) {
-	.header {
-		margin-bottom: 80px;
-	}
 	.header-container {
 		padding: 26px 32px 26px 32px;
 	}

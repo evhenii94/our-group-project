@@ -1,11 +1,7 @@
 /* ===================================HERO============================================== */
 .hero-section {
-	margin-top: 50px;
+	margin-top: 80px;
 	padding-bottom: 30px;
-}
-
-.hero-container {
-	padding-top: 30px;
 }
 
 .hero-title {
@@ -85,10 +81,10 @@
 	min-height: 368px;
 	max-width: 375px;
 	background-size: cover;
-	background: url(/img/hero-img-mob.png);
+	background: url(/img/hero-img-mob.jpg);
 	background-size: cover;
 	@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-			background: url(/img/hero-img-mob@2x.png);
+			background: url(/img/hero-img-mob2x.jpg);
 			background-size: cover;
 	}
 }
@@ -156,12 +152,12 @@
 	}
 
 	.hero-img {
-		background: url(/img/hero-tabler-img.png);
+		background: url(/img/hero-tabler-img.jpg);
 		background-size: cover;
 		min-height: 520px;
 		width: 704px;
 		@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-			background: url(/img/hero-tabler-img@2x.png);
+			background: url(/img/hero-tabler-img2x.jpg);
 			background-size: cover;
 		}
 	}
@@ -197,12 +193,12 @@
 	}
 
 	.hero-img {
-		background: url(/img/hero-img-min.png);
+		background: url(/img/hero-img.jpg);
 		background-size: cover;
 		min-height: 500px;
 		width: 1150px;
 		@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-			background: url(/img/hero-img-min@2x.png);
+			background: url(/img/hero-img@2x.jpg);
 			background-size: cover;
 		}
 	}
