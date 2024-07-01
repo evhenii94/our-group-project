@@ -1,6 +1,6 @@
 /* ===================================CONTACT============================================== */
 .contact-header {
-    font-weight: 600;
+    font-weight: bold;
     font-size: 32px;
     line-height: 100%;
     letter-spacing: -0.02em;
@@ -48,23 +48,23 @@
     font-size: 14px;
     line-height: 129%;
     color: #0C0C0C;
-
     border: 1px solid rgba(12, 12, 12, 0.15);
     background-color: transparent;
     outline: transparent;
     border-radius: 12px;
     width: 100%;
-
     padding: 12px 14px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+		resize: none;
 }
 
 .contact-form-input:hover,
-.contact-form-input:active,
+.contact-form-input:focus,
 .contact-form-textarea:hover,
-.contact-form-textarea:active{
-    border-color: #3350E9;
+.contact-form-textarea:focus {
+	border-color: #3350E9;
 }
+.contact-form-input>:focus::placeholder{opacity: 0;}
 
 .contact-form-input
 {
@@ -100,7 +100,7 @@
 }
 
 .contact-form-submit-btn:hover,
-.contact-form-submit-btn:active {
+.contact-form-submit-btn:focus {
     background-color: #1F3CD4;
 }
 
@@ -164,6 +164,8 @@
     
     .contact-form-textarea {
         height: 90px;
+				
+				
     }
 
     .contact-img-container {
