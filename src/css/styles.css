@@ -16,9 +16,17 @@
 	box-sizing: border-box;
 }
 
-html{
-    overflow-x: hidden;
-		scroll-behavior: smooth;
+:target::before {
+	content: "";
+	display: block;
+	height: 74px; 
+	margin-top: -74px; 
+	visibility: hidden;
+}
+
+html {
+	overflow-x: hidden;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -32,11 +40,6 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-text-size-adjust: 100%;
 	overflow-x: hidden;
-}
-
-
-.no-scroll {
-	overflow: hidden;
 }
 
 /* ----------------------------MOBILE MEDIA---------------------------- */

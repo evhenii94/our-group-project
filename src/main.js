@@ -11,21 +11,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
 		if (!isClickInsideMobMenu && !isClickInsideOpenMenuButton && mobMenu.classList.contains('open')) {
 			mobMenu.classList.remove('open');
-			headerContainer.classList.remove('no-scroll');
 		}
 	});
 
 	openMenuButton.addEventListener('click', function () {
 		mobMenu.classList.add('open');
 
-		body.classList.add('no-scroll');
-
 	});
 
 	closeMenuButton.addEventListener('click', function () {
 		mobMenu.classList.remove('open');
-
-		body.classList.remove('no-scroll');
 	});
 	document.addEventListener("DOMContentLoaded", function () {
 		const firstItemLink = document.querySelector('.mob-item-link.first-item');
@@ -49,6 +44,35 @@ document.addEventListener("DOMContentLoaded", function () {
 	});
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+	const header = document.querySelector('.header');
+	const links = document.querySelectorAll('a[href^="#"]');
+
+	function offsetAnchor() {
+		const targetId = this.getAttribute('href');
+		if (targetId.length > 1) {
+			const targetElement = document.querySelector(targetId);
+			if (targetElement) {
+				const headerHeight = header.offsetHeight;
+				window.scrollTo({
+					top: targetElement.offsetTop - headerHeight,
+					behavior: 'smooth'
+				});
+			}
+		}
+	}
+
+	links.forEach(link => {
+		link.addEventListener('click', function (event) {
+			event.preventDefault();
+			offsetAnchor.call(this);
+		});
+	});
+
+	// Плавный скроллинг при прокрутке колесиком
+	document.documentElement.style.scrollBehavior = 'smooth';
+});
+
 
 // --------------------------SALE HEADER SCRIPT--------------------------//
 
@@ -62,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		hiddenItems.forEach(item => {
 			item.classList.remove('hidden');
 		});
-		showMoreButton.style.display = 'none'; 
+		showMoreButton.style.display = 'none';
 	});
 });
 
