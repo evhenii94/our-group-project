@@ -56,7 +56,7 @@
 	max-width: 335px;
 	height: 366px;
 	@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-		background: url(/img/about-img-mob@2x.png);
+		background: url(../img/about-img-mob2x.jpg);
 		background-size: cover;
 	}
 }
