@@ -16,14 +16,6 @@
 	box-sizing: border-box;
 }
 
-:target::before {
-	content: "";
-	display: block;
-	height: 74px; 
-	margin-top: -74px; 
-	visibility: hidden;
-}
-
 html {
 	overflow-x: hidden;
 	scroll-behavior: smooth;
