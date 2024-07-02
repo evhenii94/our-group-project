@@ -2,9 +2,9 @@
 
 
 .review-title {
-	font-size: 48px;
+	font-size: 32px;
 	font-weight: bold;
-	line-height: 44px;
+	line-height: 32px;
 	letter-spacing: -0.02em;
 	text-align: left;
 	margin-bottom: 40px;
@@ -51,6 +51,11 @@
 }
 
 @media screen and (min-width: 768px) {
+  
+.review-title {
+	font-size: 48px;
+	line-height: 44px;
+}
 	.review-item {
 		max-width: calc((100% - 20px) / 2);
 	}
