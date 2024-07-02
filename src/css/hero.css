@@ -1,7 +1,7 @@
 /* ===================================HERO============================================== */
 .hero-section {
-	margin-top: 80px;
-	padding-bottom: 30px;
+	margin-top: 154px;
+	
 }
 
 .hero-title {
@@ -78,14 +78,16 @@
 }
 
 .hero-img {
-	min-height: 368px;
-	max-width: 375px;
+	min-height: 366px;
+	max-width: 335px;
 	background-size: cover;
 	background: url(/img/hero-img-mob.jpg);
-	background-position: center;
+	background-size: cover;
+	border-radius: 30px;
 	@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
 			background: url(/img/hero-img-mob2x.jpg);
 			background-size: cover;
+		background-position: center;
 	}
 }
 
@@ -102,7 +104,6 @@
 
 @media screen and (min-width: 768px) {
 	.hero-section {
-		padding-top: 80px;
 		padding-bottom: 40px;
 	}
 	.hero-container-title-and-text {
@@ -154,7 +155,7 @@
 	.hero-img {
 		background: url(/img/hero-tabler-img.jpg);
 		background-size: cover;
-		min-height: 520px;
+		height: 520px;
 		width: 704px;
 		@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
 			background: url(/img/hero-tabler-img2x.jpg);
