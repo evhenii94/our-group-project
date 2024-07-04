@@ -7,7 +7,7 @@
 
 .sale-title {
 	/* font-family: "Gilroy", sans-serif; */
-	font-weight: bold;
+	font-weight: 600;
 	/* font-size: 48px; */
 	font-size: 32px;
 	/* line-height: 0.92; */
@@ -77,14 +77,12 @@
 	/* margin-right: 40px; */
 	margin-bottom: 20px;
 	order: 2;
+	padding: 50px;
 }
 
 .watch-img {
 	/* width: 328px;
     height: 398px; */
-	max-width: 235px;
-    min-width: 0;
-	height: 285px;
 	transition: transform 0.5s ease;
 }
 
@@ -112,7 +110,7 @@
 }
 
 .sale-subtitle {
-	font-weight: bold;
+	font-weight: 600;
 	/* font-size: 32px;
     line-height: 1.125; */
 	font-size: 24px;
@@ -143,7 +141,7 @@
 	/* width: 78px; */
 	max-width: 68px;
 	height: 32px;
-	font-weight: bold;
+	font-weight: 600;
 	/* font-size: 20px;
     line-height: 1; */
 	font-size: 16px;
