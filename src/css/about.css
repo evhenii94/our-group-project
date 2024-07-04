@@ -17,7 +17,7 @@
 
 .about-title {
 	font-size: 32px;
-	font-weight: bold;
+	font-weight: 600;
 	line-height: 1;
 	letter-spacing: -0.02em;
 	text-align: left;
@@ -68,7 +68,7 @@
 
 	.about-title {
 		font-size: 48px;
-		font-weight: bold;
+		font-weight: 600;
 		line-height: 0.92;
 		letter-spacing: -0.02em;
 		text-align: left;
