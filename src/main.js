@@ -78,17 +78,32 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // --------------------------CATALOG SECTION SCRIPT--------------------------//
 
-document.addEventListener("DOMContentLoaded", function () {
-	const showMoreButton = document.querySelector('.catalog-btn');
+document.addEventListener('DOMContentLoaded', function () {
+	const showMoreBtn = document.querySelector('.catalog-btn');
+	const showLessBtn = document.querySelector('.catalog-btn-less');
 	const hiddenItems = document.querySelectorAll('.catalog-item.hidden');
+	const catalogSection = document.getElementById('catalog');
 
-	showMoreButton.addEventListener('click', function () {
-		hiddenItems.forEach(item => {
-			item.classList.remove('hidden');
-		});
-		showMoreButton.style.display = 'none';
+	showMoreBtn.addEventListener('click', function () {
+		hiddenItems.forEach(item => item.style.display = 'block');
+		showMoreBtn.style.display = 'none';
+		showLessBtn.style.display = 'block';
+	});
+
+	showLessBtn.addEventListener('click', function () {
+		hiddenItems.forEach(item => item.style.display = 'none');
+		showMoreBtn.style.display = 'block';
+		showLessBtn.style.display = 'none';
+
+		// Плавная прокрутка к секции Catalog
+		catalogSection.scrollIntoView({ behavior: 'smooth' });
 	});
 });
+
+
+
+
+
 
 
 // --------------------------CATALOG SECTION SCRIPT--------------------------//
