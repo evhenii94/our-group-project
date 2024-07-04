@@ -4,6 +4,11 @@
 	
 }
 
+	.hero-section picture{
+		height: 366px;
+		max-width: 335px;
+	}
+
 .hero-title {
 	font-family: "Gilroy", sans-serif;
 	font-weight: bold;
@@ -78,6 +83,11 @@
 }
 
 @media screen and (min-width: 375px) {
+
+		.hero-section picture{
+			max-width: none;
+		height: 366px;
+	}
 	.hero-text {
 		max-width: none;
 		width: 335px;
@@ -91,6 +101,11 @@
 @media screen and (min-width: 768px) {
 	.hero-section {
 		padding-bottom: 40px;
+	}
+
+	.hero-section picture{
+		height: 520px;
+		width: 704px;
 	}
 	.hero-container-title-and-text {
 		display: flex;
