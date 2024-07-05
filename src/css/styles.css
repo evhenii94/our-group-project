@@ -40,11 +40,12 @@ body {
 
 section {
 	padding-bottom: 60px;
+	overflow-x: hidden;
 }
 
-@media (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 374px) {
 	container {
-		max-width: 375px;
+		max-width: 320px;
 	}
 }
 	
