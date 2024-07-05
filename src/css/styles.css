@@ -10,11 +10,6 @@
 @import url("./contact.css");
 @import url("./footer.css");
 
-*,
-::before,
-*::after {
-	box-sizing: border-box;
-}
 
 html {
 	overflow-x: hidden;
@@ -84,7 +79,7 @@ section {
 	}
 }
 
-/*----------------------------TANLET MEDIA_---------------------------- */
+/*----------------------------TABLET MEDIA_---------------------------- */
 
 /* ----------------------------_DESCTOP MEDIA---------------------------- */
 
